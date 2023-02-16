@@ -1,38 +1,120 @@
-<!-- Subscribe -->
-<section id="contact" class="contact setion-padding" style="padding-top: 10px">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="section-header text-center pb-8">
-          <h2><b>Subscribe To Our Newsletter!</b> </h2>
-          <p> We will give you just the right amount of LOVE! Sign Up for our weekly Newsletter and be the first to
-            know about our specials and promotions.
-            <br> No Spam, We Promise!!
-        </div>
-      </div>
-    </div>
+/* * {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+} */
 
-    <div class="row m-0">
-      <div class="col-md-12 p-0 pt-4 pb-4">
-        <form action="#" class="data-bs-target p-4 m-auto">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="mb-3">
-                <input type="text" class="form-control" required placeholder="Full Name ">
-              </div>
-            </div>
-            <br>
-            <div class="col-md-12">
-              <div class="mb-3">
-                <input type="text" class="form-control" required placeholder="Email address">
-              </div>
-            </div>
-            <button class="btn btn-primary btn-lg btn-block mt-1">
-              Sign Up
-            </button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</section>
+@import 'https://fonts.googleapis.com/css?family=Open Sans:300, 400, 700&display=swap';
+body {
+  
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: medium;
+  background-image: linear-gradient(rgba(244, 238, 188, 0.8), rgba(212, 245, 208, 0.8)),
+    url(/images/1.png);
+  background-size: cover;
+  color: #000000;
+  background-attachment: fixed;
+}
+
+
+.section-padding {
+  padding: 100px 0;
+}
+.carousel-item {
+  height: 100vh;
+
+  min-height: 300px;
+}
+.carousel-caption {
+  bottom: 100px;
+  z-index: 3;
+}
+.carousel-caption h5 {
+  font-size: 50px;
+  text-decoration-color: #e91e63;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+.carousel-caption p {
+  width: 60%;
+  margin: auto;
+  font-size: 15px;
+  line-height: 2;
+}
+.carousel-inner::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(253, 253, 253, 0.7);
+  z-index: 0.2;
+}
+.container1 {
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.img-fluid::before {
+  content: "";
+  background: rgb(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #ebddd4;
+}
+
+.mask-custom {
+  backdrop-filter: blur(5px);
+  background-color: rgba(170, 132, 102, 0.15);
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  letter-spacing: 3px;
+}
+
+.navbar-nav a{
+    font-size: 20px;
+    
+    font-weight: 500;
+
+}
+.navbar-nav a:hover{
+    font-size: 22px;
+    text-decoration: underline;
+
+}
+.navbar-light .navbar-brand{
+    color: black;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+/* .navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+    color: black;
+}
+
+.navbar-light .navbar-nav .navbar-link{
+    color: black;
+} */
