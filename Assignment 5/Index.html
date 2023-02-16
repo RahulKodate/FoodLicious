@@ -267,3 +267,116 @@
   </section>
   <br>
   <br>
+
+<!-- Book The Reservations -->
+
+  <!-- Section header with a title -->
+  <div class="section-header text-center pb-2">
+    <h2><b>Make A Reservation</b>
+    </h2>
+  </div>
+
+  <!-- Wrapper div with a light background -->
+  <div class="wrapper bg-light">
+
+    <!-- Reservation form with two input fields for Restaurants and Cuisine -->
+    <form action="#">
+      <div class="form-group d-sm-flex margin">
+
+        <!-- Input field for selecting a restaurant from a list -->
+        <div class="d-flex align-items-center flex-fill me-sm-1 my-sm-0 my-4 border-bottom position-relative">
+
+          <div>
+            <label for="exampleDataList1" class="form-label fw-bold fs-10 m-0">Restaurants</label>
+            <input class="form-control inp-width inp-height" list="datalistOptions1" id="exampleDataList1"
+            placeholder="Restaurants">
+          <datalist id="datalistOptions1">
+            <option value="SpiceIndia">
+            <option value="IndianFoodo">
+            <option value="Punjabi Tadka">
+            <option value="Madaras Cafe">
+          </datalist>
+        </div>
+      </div>
+
+      <!-- Input field for selecting a cuisine from a list -->
+      <div class="d-flex align-items-center flex-fill ms-sm-1 my-sm-0 my-4 border-bottom position-relative">
+        <div>
+          <label for="exampleDataList1" class="form-label fw-bold fs-10 m-0">Cuisine</label>
+          <input class="form-control inp-width inp-height" list="datalistOptions2" id="exampleDataList2"
+            placeholder="Cuisine">
+          <datalist id="datalistOptions2">
+            <option value="Indian">
+            <option value="Italian">
+            <option value="Mexican">
+            <option value="Chinese">
+            <option value="Continental">
+          </datalist>
+        </div>
+      </div>
+    </div>
+
+      <!-- Additional input fields for selecting the date and number of people for the reservation -->
+      <!-- City -->
+      <div class="form-group d-sm-flex margin">
+
+        <div class="dropdown d-flex align-items-center flex-fill me-sm-1 my-sm-0 my-4 border-bottom position-relative">
+          <div>
+            <label for="exampleDataList1" class="form-label fw-bold fs-10 m-0">City</label>
+            <select class="form-select inp-height inp-width" aria-label="Default select example">
+              <option selected>Select City</option>
+              <option value="Boston">Boston</option>
+              <option value="Seattle">Seattle</option>
+              <option value="Dallas">Dallas</option>
+              <option value="Chicago">Chicago</option>
+              <option value="San Diego">San Diego</option>
+              <option value="Michigan">Michigan</option>
+              <option value="Tampa">Tampa</option>
+
+
+            </select>
+          </div>
+        </div>
+
+        <div class="dropdown d-flex align-items-center flex-fill me-sm-1 my-sm-0 my-4 border-bottom position-relative">
+            <div>
+              <label for="exampleDataList1" class="form-label fw-bold fs-10 m-0">Number of Seats</label>
+              <select class="form-select inp-height inp-width" aria-label="Default select example">
+                <option selected>1</option>
+                <!-- <option value="1">1</option> -->
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+  
+              </select>
+            </div>
+          </div>
+  
+        </div>
+        <div class="form-group d-sm-flex margin">
+  
+  
+          <div class="d-flex align-items-center flex-fill me-sm1 my-sm-0 border-bottom position-relative">
+            <input type="date" required placeholder="Depart Date" class="form-control">
+            <div class="label" id="reservationDate"></div>
+          </div>
+        </div>
+  
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label fw-bold fs-8" for="flexCheckDefault">
+              I hearby agree to all the Terms and Conditions. </label>
+          </div>
+          <div class="form-group my-3">
+            <div class="btn btn-primary rounded-0 d-flex justify-content-center text-center p-3">Book Now
+            </div>
+          </div>
+        </form>
+    
+      </div>  
