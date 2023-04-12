@@ -28,8 +28,10 @@ Every step of the process is something we take pride in, from choosing the fresh
 
       {/* Section 2 */}
       <section className="container mx-auto py-12 px-4 md:px-0">
-        <h2 className="text-3xl font-bold mb-6">Meet Our Team</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="flex items-center justify-center mb-6">
+        <h2 className="flex text-3xl font-bold p-0 m-auto text-center text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-pink-500">Meet Our Team</h2>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
 
           {/* All the team members */}
           <div className="bg-white shadow-lg rounded-lg p-6">
@@ -50,6 +52,7 @@ Every step of the process is something we take pride in, from choosing the fresh
               <i className="fab fa-linkedin"></i> LinkedIn
             </a>
           </div>
+
           <div className="bg-white shadow-lg rounded-lg p-6">
             <img src={rahul} alt="Rahul Kodate" className="w-full h-64 object-cover mb-4 rounded" />
             <h3 className="text-xl font-bold mb-2">Rahul Kodate</h3>
@@ -58,6 +61,7 @@ Every step of the process is something we take pride in, from choosing the fresh
               <i className="fab fa-linkedin"></i> LinkedIn
             </a>
           </div>
+
           <div className="bg-white shadow-lg rounded-lg p-6">
             <img src={aseem} alt="Aseem Deshmukh" className="w-full h-64 object-cover mb-4 rounded" />
             <h3 className="text-xl font-bold mb-2">Aseem Deshmukh</h3>
@@ -66,6 +70,7 @@ Every step of the process is something we take pride in, from choosing the fresh
               <i className="fab fa-linkedin"></i> LinkedIn
             </a>
           </div>
+
           <div className="bg-white shadow-lg rounded-lg p-6">
             <img src={uday} alt="Udaykumar Shelke" className="w-full h-64 object-cover mb-4 rounded" />
             <h3 className="text-xl font-bold mb-2">Udaykumar Shelke</h3>

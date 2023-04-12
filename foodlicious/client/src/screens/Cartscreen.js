@@ -28,7 +28,7 @@ export default function Cartscreen() {
                 {item.name} [{item.varient}]
               </h1>
               <h1 className="text-base font-medium mb-2">
-                Price : {item.quantity} * {item.prices[0][item.varient]} = {item.price}
+                Price : {item.quantity} x ${item.prices[0][(item.varient)]} = ${item.price}
               </h1>
               <div className="flex items-center space-x-4">
                 <h1 className="text-base font-medium">Quantity :</h1>
@@ -66,7 +66,7 @@ export default function Cartscreen() {
       </div>
 
       <div className="col-span-1 text-right">
-        <h2 className="text-4xl mb-4">SubTotal : {subtotal} /-</h2>
+        <h2 className="text-4xl mb-4">SubTotal : ${subtotal}</h2>
         <Checkout subtotal={subtotal} />
       </div>
     </div>
