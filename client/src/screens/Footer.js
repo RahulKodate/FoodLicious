@@ -8,7 +8,7 @@ const Footer = () => {
   <div className="container mx-auto px-6 py-12 grid grid-cols-3 gap-6">
     {/* Column 1 */}
     <div className="column1">
-      <a href="http://localhost:3000/home"><img src={Logo} alt="Website Logo" className="w-70 h-16 mb-4 rounded-lg"  /></a> 
+      <a href="/"><img src={Logo} alt="Website Logo" className="w-70 h-16 mb-4 rounded-lg"  /></a> 
       <p>
       Welcome to Foodlicious: Food Blogging and Ordering Website
       </p>
@@ -17,7 +17,7 @@ const Footer = () => {
     <div className="column2">
       <h3 className="text-xl font-bold mb-4">Quick Links</h3>
       <ul>
-        <li><a href="/home" className="text-gray-300 hover:text-white">Home</a></li>
+        <li><a href="/" className="text-gray-300 hover:text-white">Home</a></li>
         <li><a href="/about" className="text-gray-300 hover:text-white">About Us</a></li>
         <li><a href="/menu" className="text-gray-300 hover:text-white">Menu</a></li>
         <li><a href="/ContactUs" className="text-gray-300 hover:text-white">Contact</a></li>
