@@ -124,7 +124,7 @@ Home Page 3:<br/>
 About Us Page1:<br/>
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/115193023/233468564-47404217-eebe-4748-a82f-e808a41d6997.png">
 
-About Us Page2:
+About Us Page2:<br/>
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/115193023/233468620-50ee65bd-e6b9-4354-8e68-0e0c7ad595b6.png">
 
 Contact Us Page 1:<br/>
