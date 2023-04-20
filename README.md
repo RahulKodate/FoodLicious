@@ -118,10 +118,10 @@ Home Page 1:
 Home Page 2:        
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/115193023/233468433-dd0a11e4-7270-45b6-9ba1-3d8dc1a13889.png">
 
-Home Page 3:
+Home Page 3:<br/>
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/115193023/233468487-4e5515f6-c86e-4683-9f4c-a49f92a73e83.png">
 
-About Us Page1:
+About Us Page1:<br/>
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/115193023/233468564-47404217-eebe-4748-a82f-e808a41d6997.png">
 
 About Us Page2:
