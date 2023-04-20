@@ -112,10 +112,10 @@ License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ScreenShots:        
-Home Page 1:
+Home Page 1:<br/>
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/115193023/233467927-0c2ee95f-bce7-48bd-b853-8a0af5f765ed.png">
 
-Home Page 2:        
+Home Page 2:<br/>       
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/115193023/233468433-dd0a11e4-7270-45b6-9ba1-3d8dc1a13889.png">
 
 Home Page 3:<br/>
@@ -127,37 +127,37 @@ About Us Page1:<br/>
 About Us Page2:
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/115193023/233468620-50ee65bd-e6b9-4354-8e68-0e0c7ad595b6.png">
 
-Contact Us Page 1:
+Contact Us Page 1:<br/>
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/115193023/233468711-e4260895-e5ac-403e-b54c-fcf610c20182.png">
 
-Contact Us Page 2:
+Contact Us Page 2:<br/>
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/115193023/233468752-41beaab4-2eff-429a-ad15-2df3c3ae0d2d.png">
 
-Login Page:
+Login Page:<br/>
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/115193023/233468784-8f3f638d-4488-4510-8a76-fd56648d1aa7.png">
 
-Cart Page 1
+Cart Page 1:<br/>
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/115193023/233468808-ded053ca-8932-46cd-b110-0ff48e528501.png">
 
-Cart payment page 1:
+Cart payment page 1:<br/>
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/115193023/233468832-d1cd6a45-6630-4f65-aa52-33ad91468d2b.png">
 
-Cart Payment page 2:
+Cart Payment page 2:<br/>
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/115193023/233468854-b24823a0-20bf-4be9-be67-9a3e9e432331.png">
 
-Orders Page 1:
+Orders Page 1:<br/>
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/115193023/233468894-b8017ae8-8c59-4dfb-8f6a-5bd1f5c7b172.png">
 
-Admin User List:
+Admin User List:<br/>
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/115193023/233468912-2844c235-0d3c-4951-b2bf-2a6182ea1a00.png">
 
-Admin Dish List:
+Admin Dish List:<br/>
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/115193023/233468934-6f0f3d9a-757b-4781-91db-7712c422b6d4.png">
 
-Admin Add Dish:
+Admin Add Dish:<br/>
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/115193023/233468963-43846d7c-0973-47a0-a447-b6297a1a9eef.png">
 
-Admin OrderList:
+Admin OrderList:<br/>
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/115193023/233468993-4bde7885-3afa-4881-96d8-2c3e0a225f9b.png">
 
 
