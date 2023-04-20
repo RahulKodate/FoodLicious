@@ -30,8 +30,8 @@ export default function Filter() {
             <option value="all">All</option>
             <option value="veg">Veg</option>
             <option value="nonveg">Non Veg</option>
-            <option value="nonveg">Indian</option>
-            <option value="nonveg">Mexican</option>
+            <option value="indian">Indian</option>
+            <option value="mexican">Mexican</option>
           </select>
         </div>
         <div className="w-full md:w-1/3 mt-2 md:mt-0 md:ml-2">

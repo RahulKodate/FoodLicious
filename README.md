@@ -63,3 +63,8 @@ They’re toggled by clicking, not by hovering; this is an intentional design de
 We have used dropdown in the from for selecting the pre defined elements from the from.
 
 11. BADGE: Documentation and examples for badges, our small count and labeling component used in Nav Bar notification
+
+
+========================
+Phase 2::
+
